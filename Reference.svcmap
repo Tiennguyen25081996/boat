@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e2b661bf-4ba3-4097-92a6-c608b9a1413e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:59421/Service/tien/QuanLyQuocGia.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="QuanLyQuocGia.disco" MetadataType="Disco" ID="3c6760d0-9abf-44e9-9560-ea0b19a27bab" SourceId="1" SourceUrl="http://localhost:59421/Service/tien/QuanLyQuocGia.svc?disco" />
+    <MetadataFile FileName="QuanLyQuocGia.xsd" MetadataType="Schema" ID="5068060e-1698-4288-bc76-da9a5f611c68" SourceId="1" SourceUrl="http://localhost:59421/Service/tien/QuanLyQuocGia.svc?xsd=xsd1" />
+    <MetadataFile FileName="QuanLyQuocGia.wsdl" MetadataType="Wsdl" ID="00556ff8-332e-4438-aebd-5abb2e78db0d" SourceId="1" SourceUrl="http://localhost:59421/Service/tien/QuanLyQuocGia.svc?wsdl" />
+    <MetadataFile FileName="QuanLyQuocGia1.xsd" MetadataType="Schema" ID="450239ac-a382-4f6e-9f70-9e71194e83f9" SourceId="1" SourceUrl="http://localhost:59421/Service/tien/QuanLyQuocGia.svc?xsd=xsd2" />
+    <MetadataFile FileName="QuanLyQuocGia2.xsd" MetadataType="Schema" ID="67886fcd-9491-473e-a32a-fbb66697342f" SourceId="1" SourceUrl="http://localhost:59421/Service/tien/QuanLyQuocGia.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
